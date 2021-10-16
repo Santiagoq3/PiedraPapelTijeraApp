@@ -1,0 +1,37 @@
+.header{
+
+  border: 3px solid $HeaderOutline ;
+  margin-top: 1.1rem;
+  border-radius: 8px ;
+  padding: 0.8em;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+
+  img{
+      width: 100px;
+      margin-left: 0.5em;
+  }
+
+ div{
+     color: $ScoreText;
+     display: flex;
+     padding: 1em;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     background-color: whitesmoke;
+     border-radius: 7px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+
+
+     p{
+         color: $HeaderOutline;
+         font-size: 1.1rem;
+         font-weight: 700;
+     }
+ }
+
+}
+

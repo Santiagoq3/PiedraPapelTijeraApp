@@ -1,0 +1,31 @@
+.game{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.game__option{
+    width: 100px;
+    height: 100px;
+    background-color: darken($color: $DarkText, $amount: 8);
+    border-radius: 50%;
+}
+
+.game__results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    p{
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+   
+}
+
+.game__results-players{
+    color:  white !important;
+}
